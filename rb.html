@@ -1,0 +1,589 @@
+<!DOCTYPE >
+
+<html >
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>INFOSYS</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background: #1B120B url(images/img02.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #402C16;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #B94E0E;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: url(img0.gif) no-repeat center top;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 240px;
+	background: url(.jpg) no-repeat center top;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 100px;
+	margin: 0;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-top: 100px;
+	padding-left: 30px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 64px;
+}
+
+#logo p {
+	margin: 0;
+	padding: 30px 0 0 34px;
+	text-shadow: #808080 -1px 1px 2px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 960px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 4px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 13px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu .current_page_item a {
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(img04.jpg) repeat-y left top;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 40px 30px 0px 30px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 600px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	color: #CA3D2F;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	padding: 0px 0px 0px 0px;
+	color: #B94E0E;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 15px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	padding-left: 15px;
+	line-height: 35px;
+	background: url(img01.gif) no-repeat left 14px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 15px;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #CA3D2F;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer-wrapper {
+	height: 150px;
+	background: url(img06.jpg) repeat-x left top;
+}
+
+#footer {
+	width: 960px;
+	height: 55px;
+	background: url(img05.jpg) no-repeat left top;
+	margin: 0px auto 40px auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">Robert Bosch GmbH</a></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- end #menu -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">ABOUT BOSCH </a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 10, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="bo.jpg" width="200" height="200" alt="" class="alignleft border" />
+
+
+Robert Bosch GmbH (/bɒʃ/; German: [bɔʃ] (About this soundlisten)), or Bosch, is a German multinational engineering and technology company headquartered in Gerlingen, near Stuttgart, Germany. The company was founded by Robert Bosch in
+								Stuttgart in 1886.[2] Bosch is 92% owned by Robert Bosch Stiftung, a charitable institution.[1]<br><br><br>
+<br><b>History:</b>
+
+							<p><img src="bo3.jpg" width="200" height="200" alt="" class="alignleft border" /><b>China has developed into an important market and manufacturing base for
+							Bosch. In 2012, Bosch had 34,000 employees and a revenue of 41.7 billion Yuan
+							(about 5 billion Euro) in China.</b></p>
+							<ul>
+								<li>2012 – Purchased SPX Service Solutions[7][8]</li>
+								<li>2012 – Bosch sold its foundation brakes activities to KPS Capital Partners, that led to the establishment of Chassis Brakes International[9]</li>
+								<li>2013 – Bosch announced it would exit its solar business</li>
+								<li>2014 – Bosch entered talks to acquire Red Bend Software.[10]</li>
+								<li>2014 – Bosch takes over 100% of the shares from the former BSH Bosch and Siemens Hausgeräte GmbH joint venture (home appliances)[11]</li>
+								<li>2014 – Bosch received the 2014 U.S. Smart Partner award for Physical Security from Ingram Micro Inc.[12]</li>
+<li>2015 – Bosch takes over 100% of the shares of the former ZF Lenksysteme (Steering Systems) GmbH joint venture (was 50/50 with ZF Friedrichshafen)
+								<li>2015 – Bosch purchases Seeo, Inc, a start-up working on solid state lithium ion batteries.</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">Mobility solutions</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="bo4.jpg" width="200" height="200" alt="" class="alignleft border" />
+								The Bosch R&D center in Abstatt, Germany, which is a major site for the development of automotive components.
+The Mobility Solutions business sector accounts for 60 percent of total sales in 2019.[1] Its main areas of activity are injection technology and powertrain peripherals for internal-combustion engines, powertrain electrification, steering systems, safety and driver-assistance systems, infotainment technology as well as vehicle-to-vehicle and vehicle-to-infrastructure communication, repair-shop concepts, and technology and services for the automotive aftermarket.
+
+Particular strategic priorities for the sector include transforming the powertrain and expanding the business in the areas of electrification, automated driving, new electrical and electronic architectures for vehicles, accessing adjacent market segments, and developing additional services.
+
+The new Powertrain Solutions division was formed effective 1 January 2018, in order to develop powertrain technology products, regardless of the energy source. The new division resulted from the merger of the former Gasoline Systems and Diesel Systems divisions. It offers products for powertrain technology, from gasoline and diesel direct injection to electrified powertrains with battery systems and, in the future, it will offer fuel-cell technologies as well.
+ </p>
+
+
+<ul>
+	<li><b>Brands within this sector include:</b></li>
+
+	<li>AutoCrew</li>
+	<li>Bosch Car Service</li>
+	<li>ITK Engineering</li>
+	<li>Robinair</li>
+	<li>HC Cargo</li>
+	<li>Zexel</li>
+	<li>ETAS</li>
+</ul>
+
+
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">Energy and building technology</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="bo1.jpg" width="200" height="200" alt="" class="alignleft border" />
+								In 2019, the Energy and Building Technology business sector generated 7 percent of total Bosch Group sales.[1] Its Building Technologies division (formerly Security Systems) has two areas of business: the global product business for security and communications, and the regional integrator business. The latter offers services for building security, energy efficiency, and building automation in selected countries. Both units focus on commercial applications. The products encompass video-surveillance, intrusion-detection, fire-detection, and voice-alarm systems, as well as access-control and professional audio and conference systems.
+
+</p>
+							<ul>
+								<p>Robert Bosch Smart Home GmbH offers web-enabled, app-controlled products for the home.</p>
+
+								<li><b>Brands within this sector:</b></li>
+
+								<li>Dynacord</li>
+								<li>Electro-Voice</li>
+								<li>Telex</li>
+								<li>Worcester Bosch</li>
+								<li>Junkers</li>
+							</ul>
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">Awards and recognition</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="bo5.jpg" width="200" height="200" alt="" class="alignleft border" />
+							Robert Bosch GmbH, including its wholly owned subsidiaries such as Robert Bosch LLC in North America, is unusual in that it is an extremely large, privately owned corporation that is almost entirely (92%) owned by a charitable foundation. Thus, while most of the profits are invested back into the corporation to build for the future and sustain growth, nearly all of the profits distributed to shareholders are devoted to humanitarian causes.
+
+
+<br>
+As shown in the diagram (above), the Robert Bosch Stiftung (Robert Bosch Foundation) holds 92% of the shares (Beteiligung) of Robert Bosch GmbH, but no voting rights (Stimmrecht). The Robert Bosch Industrietreuhand KG (Robert Bosch Industrial Trust KG), with old members of the company management, agents of the Bosch family, and other eminent people from the industry (such as Jürgen Hambrecht, CEO of BASF), have 93% of the votes (Stimmen), but no shares (0.01%). The remaining 8% of shares and 7%[2] of voting-rights are held by the descendants of the company founder Robert Bosch (Familie Bosch).[35]
+<br>
+For example, in 2004, the net profit was US$2.1 billion, but only US$78 million was distributed as dividends to shareholders. Of that figure, US$72 million was distributed to the charitable foundation, and the other US$6 million to Bosch family stockholders. The remaining 96% of the profits were invested back into the company. In its core automotive technology business, Bosch invests 9% of its revenue on research and development, nearly double the industry average of 4.7%.</p>
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Robert Bosch GmbH</h2>
+							<b>PRODUCTS:</b>
+Automotive parts,power tools,security systems,home appliances,engineering, electronics,cloud computing, IoT
+
+						</li>
+						<li>
+							<h2>FOUNDERS</h2>
+							<ul>
+								<li><a href="#">Robert Bosch</a></li>
+
+							</ul>
+						</li>
+						<li>
+							<h2>ABOUT</h2>
+							<ul>
+								<li><a href="#"><b>FOUNDED ON:</b>
+									15 November 1886; 134 years ago</a></li>
+								<li><a href="#"><b>Revenue</b>:
+Decrease €77.721 billion (2019)[1]</a></li>
+								<li><a href="#"></a><b>Operating income:</b>
+Decrease €2.903 billion (2019)[1]</li>
+								<li><a href="#"><b>Net income:</b>
+Decrease €2.060 billion (2019)[1]</a></li>
+								<li><a href="#"></a><b>Total assets:</b>
+Increase €89.030 billion (2019)[1]</li>
+								<li><a href="#"><b>Total equity:</b>
+Increase €41.079 billion (2019)[1]</a></li>
+								<li><a href="#"><b>Number of employees:</b>
+
+398,150 (2019)[1]</a></li>
+											<li><a href="#"><b>EM-motive</b>
+
+
+Daimler AG and Bosch established a 50:50 joint venture (JV) to develop and manufacture electric motors in 2011. The JV, called EM-motive GmbH, manufactures traction motors for electric, fuel cell and extended-range vehicles at a facility in Hildesheim, Germany.[31]
+
+In 2019 Bosch acquired the remaining shares and assumed full control of the company.</a></li>
+		<li><a href="#"><b>Purolator filters:</b>
+
+Bosch co-owned Purolator Filters in a joint venture with Mann+Hummel until 2013.
+								In 2013 the Mann+Hummel Group acquired Bosch's stake.[33]</a></li>
+
+
+
+							</ul>
+						</li>
+
+
+
+
+						<li>
+							<h2>more info</h2>
+							<ul>
+								<li><a href="#">	<b>Headquarters:</b>
+Robert-Bosch-Platz 1, 70839 Gerlingen, Germany</a></li>
+								<li><a href="#"><b>Area served:</b>
+Worldwide</a></li>
+								<li><a href="#"><b>Key people:</b>
+
+                                     Volkmar Denner (CEO),
+									Michael Bolle (CTO, CDO))</a></li>
+								<li><a href="#"><b>OWNER:</b>
+                                   Robert Bosch Stiftung (92%)
+Bosch Family (7%)
+Robert Bosch GmbH (1%)</a></li>
+								<li><a href="#"><b>Type:</b>
+PRIVATE(GMBH)</a></li>
+
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer-wrapper">
+	<div id="footer">
+		<p>&copy;GMBH  <a href="https://www.bosch.com/" rel="nofollow">Robert Bosch GmbH</a>.</p>
+	</div>
+</div>
+<!-- end #footer -->
+</body>
+</html>
