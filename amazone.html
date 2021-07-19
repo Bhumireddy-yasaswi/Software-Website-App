@@ -1,0 +1,600 @@
+<!DOCTYPE >
+
+<html >
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>INFOSYS</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background: #1B120B url(images/img02.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #402C16;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #B94E0E;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #EEE7DF;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background: url(img0.gif) no-repeat center top;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 240px;
+	background: url(.jpg) no-repeat center top;
+}
+
+#header {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 100px;
+	margin: 0;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-top: 100px;
+	padding-left: 30px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 64px;
+}
+
+#logo p {
+	margin: 0;
+	padding: 30px 0 0 34px;
+	text-shadow: #808080 -1px 1px 2px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 100px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 60px 0 0 30px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 195px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 960px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 4px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 13px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu .current_page_item a {
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(img04.jpg) repeat-y left top;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 40px 30px 0px 30px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 600px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.post .title {
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	color: #CA3D2F;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	padding: 0px 0px 0px 0px;
+	color: #B94E0E;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 15px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	padding-left: 15px;
+	line-height: 35px;
+	background: url(img01.gif) no-repeat left 14px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	margin-bottom: 20px;
+	padding: 12px 0 0 15px;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #CA3D2F;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer-wrapper {
+	height: 150px;
+	background: url(img06.jpg) repeat-x left top;
+}
+
+#footer {
+	width: 960px;
+	height: 55px;
+	background: url(img05.jpg) no-repeat left top;
+	margin: 0px auto 40px auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">AMAZONE</a></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- end #menu -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Products and services </a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 10, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="zone1.jpg" width="200" height="200" alt="" class="alignleft border" />
+								Infosys provides software development, maintenance and independent validation services to companies in finance, insurance, manufacturing and other domains.[20]
+								One of its known products is Finacle which is a universal banking solution with various modules for retail and corporate banking.[21] Glass building in Pune campus<br><br><br>
+<br><b>Its key products and services are:</b>
+<ul>
+							<li>NIA – Next Generation Integrated AI Platform (formerly known as Mana)</li>
+							<li>Infosys Consulting – a global management consulting service</li>
+							<li>Infosys Information Platform (IIP) – Analytics platform</li>
+							<li>EdgeVerve Systems which includes Finacle, a global banking platform</li>
+							<li>Panaya Cloud Suite</li>
+							<li>Skava</li>
+							<li>Engineering Services[22]</li>
+							<li>Digital Marketing[23]</li>
+							</ul>
+								</p>
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">HISTORY</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="zone2.jpg" width="200" height="200" alt="" class="alignleft border" />
+								Amazon is known for its disruption of well-established industries through technological innovation and mass scale.[18][19][20] It is the world's largest online marketplace, AI assistant provider, live-streaming platform and cloud computing platform[21] as measured by revenue and market capitalization.[22] Amazon is the largest Internet company by revenue in the world.[23] It is the second largest private employer in the United States[24] and one of the world's most valuable companies. </p>
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">	Products and services</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="zone5.jpg" width="200" height="200" alt="" class="alignleft border" />
+								Amazon.com's product lines available at its website include several media (books, DVDs, music CDs, videotapes and software), apparel, baby products, consumer electronics, beauty products, gourmet food, groceries, health and personal-care items, industrial & scientific supplies, kitchen items, jewelry, watches, lawn and garden items, musical instruments, sporting goods, tools, automotive items and toys & games.[citation needed] In August 2019, Amazon applied to have a liquor store in San Francisco, CA as a means to ship beer and alcohol within the city.[48] Amazon has separate retail websites for some countries and also offers international shipping of some of its products to certain other countries.[49] In November 2020, the company started an online delivery service dedicated to prescription drugs. The service provides discounts up to 80% for generic drugs and up to 40% for branded drugs for Prime subscribe users. The products can be purchased on the company's website or at over 50,000 bricks-and-mortar pharmacies in the United States.[50]
+
+							<li><b>Amazon.com has a number of products and services available, including:</b></li>
+
+							<li>AmazonFresh</li>
+							<li>Amazon Prime</li>
+							<li>Amazon Web Services</li>
+							<li>Alexa</li>
+							<li>Appstore</li>
+							<li>Amazon Drive</li>
+							<li>Echo</li>
+							<li>Kindle</li>
+							<li>Fire tablets</li>
+							<li>Fire TV</li>
+							<li>Video</li>
+							<li>Kindle Store</li>
+							<li>Music</li>
+							<li>Music Unlimited</li>
+							<li>Amazon Digital Game Store</li>
+							<li>Amazon Studios</li>
+							<li>AmazonWireless</li> </p>
+						</div>
+					</div>
+
+					<div class="post">
+						<h2 class="title"><a href="#">Delivery partners</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="zone4.jpg" width="200" height="200" alt="" class="alignleft border" />
+								In the United Kingdom, Amazon assists its employees to start small businesses to operate as delivery service partners (DSPs) for delivering Amazon goods. According to the company, as of 2019, successful DSPs could earn between
+								£50,000 to £150,000 in annual profits operating a fleet of 20 to 40 delivery vehicles</p>
+						</div>
+					</div>
+					<div class="post">
+						<h2 class="title"><a href="#">Board of directors</a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on August 8, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><img src="zone3.jpg" width="200" height="200" alt="" class="alignleft border" />
+							<ul>
+							<li>Jeff Bezos, President, CEO, and Chairman</li>
+							<li>Keith B. Alexander, CEO IronNet Cybersecurity, former NSA Director</li>
+							<li>Rosalind Brewer, Group President, and COO, Starbucks</li>
+							<li>Jamie Gorelick, partner, Wilmer Cutler Pickering Hale, and Dorr</li>
+							<li>Daniel P. Huttenlocher, Dean of the Schwarzman College of Computing at the Massachusetts Institute of Technology</li>
+							<li>Judy McGrath, former CEO, MTV Networks</li>
+							<li>Indra Nooyi, former CEO, PepsiCo</li>
+							<li>Jon Rubinstein, former Chairman, and CEO, Palm, Inc.</li>
+							<li>Thomas O. Ryder, former Chairman, and CEO, Reader's Digest Association</li>
+							<li>Patty Stonesifer, President, and CEO, Martha's Table</li>
+							<li>Wendell P. Weeks, Chairman, President, and CEO, Corning Inc.</li>
+						</ul></p>
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Amazon.com, Inc.</h2>
+							<pre><b>Traded as:</b>
+NASDAQ: AMZN
+NASDAQ-100 component
+S&P 100 component
+S&P 500 component</pre>
+
+						</li>
+						<li>
+							<h2>FOUNDERS</h2>
+							<ul>
+								<li><a href="#">
+Jeff Bezos</a></li>
+
+						</li>
+						<li>
+							<h2>ABOUT</h2>
+							<ul>
+								<li><a href="#"><b>FOUNDED ON:</b>
+July 5, 1994; 26 years ago
+Bellevue, Washington, U.S.</a></li>
+								<li><a href="#"><b>Revenue</b>:
+
+Increase US$280.522 billion (2019)</a></li>
+								<li><a href="#"></a><b>Operating income:</b>
+Increase US$14.541 billion (2019)</li>
+								<li><a href="#"><b>Net income:</b>
+Increase US$11.588 billion (2019)</a></li>
+								<li><a href="#"></a><b>Total assets:</b>
+
+Increase US$225.248 billion (2019)</li>
+								<li><a href="#"><b>Total equity:</b>
+Increase US$62.06 billion (2019)</a></li>
+								<li><a href="#"><b>Number of employees:</b>
+Increase 1,125,300 (Sept. 2020)[1]</a></li>
+								<li><a href="#"><b>Subsidiaries:</b>
+A9.comAbeBooksAmazon.com
+									ServicesAmazon
+									AirAmazon
+									BooksAmazon
+									Game StudiosAlexa
+									InternetAmazon
+									Lab126Amazon
+									LogisticsAmazon
+									PublishingAmazon
+									RoboticsAmazon
+									StudiosAWSAudibleBody
+									LabsBook
+									DepositoryComiXologyDigital
+									Photography
+									ReviewGoodreadsGraphiq
+									IMDbRingSouq.
+									comTwitch InteractiveWhole
+									Foods MarketWootZappos</a></li>
+							</ul>
+						</li>
+
+
+
+
+						<li>
+							<h2>more info</h2>
+							<ul>
+								<li><a href="#">	<b>Headquarters:</b>
+Bangalore, Karnataka, India</a></li>
+								<li><a href="#"><b>Area served:</b>
+Worldwide</a></li>
+								<li><a href="#"><b>Key people:</b>
+Nandan Nilekani
+(Chairman)
+Salil Parekh
+(MD & CEO)</a></li>
+								<li><a href="#"><b>products:</b>
+
+                                    EchoFire
+									TabletFire
+									TVFire
+									OSKindle</a></li>
+								<li><a href="#"><b>Type:</b>
+Public</a></li>
+
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer-wrapper">
+	<div id="footer">
+		<p>&copy; Amazon.com, Inc. <a href="https://www.aboutamazon.com/" rel="nofollow">amazone</a>.</p>
+	</div>
+</div>
+<!-- end #footer -->
+</body>
+</html>
